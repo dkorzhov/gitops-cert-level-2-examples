@@ -22,10 +22,6 @@ spec:
     syncOptions:
       - CreateNamespace=true  
   ignoreDifferences:
-  - group: ""
-    kind: Secret
-    jsonPointers:
-    - /data/my-password  
   - group: *
     kind: Deployment
     jsonPointers:
